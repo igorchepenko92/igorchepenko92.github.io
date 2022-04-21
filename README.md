@@ -1,2 +1,2 @@
-# igorchepenko92.github.io
+# Игорь Чепенко
 Мой первый сайт
