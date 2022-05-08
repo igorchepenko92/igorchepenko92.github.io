@@ -1,0 +1,188 @@
+body{
+    font-family: Arial, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051
+}
+
+.logo{
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 270px;
+    float: left;
+}
+
+.menu{
+    float: left;
+    padding-left: 300px;
+}
+
+.menu li{
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-right: 40px;
+}
+
+.main{
+    width: 100;
+    height: calc(100% - 60px);
+    background: url(../img/Boy.png) 90% 100%/auto 85% no-repeat , url(../img/bg.jpg) center/cover no-repeat;
+}
+
+.title__container{
+    float: left;
+    margin: 290px 0px 0px 280px;
+    color: #2c384a;
+    text-align: center;
+}
+
+.title__container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title__container h4{
+    margin-top: 30px;
+    font-size: 22px;
+    color: #828994
+}
+
+.title__container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #828994;
+    background: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0px 13px;
+    margin: 58px 14px 0px 14px;
+}
+
+.main_obomne{
+    width: 100%;
+    height: 80%;
+    background: url(../img/boy2.png) 50% 40%/auto 30% no-repeat , url(../img/resume1.png) no-repeat 680px 92%/auto , url(../img/cherta.png) 50% 20%/auto 4px no-repeat , url(../img/white.jpg) center/cover;
+}
+
+.main_obomne h2{
+    text-align: center;
+    padding: 65px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.text-odin p{
+    width: 50%;
+    height: 5%;
+    text-align: start;
+    margin: 215px 0px 0px 360px;
+}
+
+.text-dva p{
+    width: 50%;
+    text-align: start;
+    margin: 30px 0px 0px 360px
+}
+
+.main_obomne input{
+    height: 30px;
+    border: 2px solid #6f707e;
+    background: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0px 13px 0px 30px;
+    margin: 50px 14px 0px 670px;
+}
+
+.chtoumey{
+    width: 100%;
+    height: 55%;
+    background: url(../img/cherta.png) 50% 30%/auto 4px no-repeat, url(../img/fon-yaumeyu.jpg) center/cover;
+}
+
+.chtoumey h2{
+    text-align: center;
+    padding: 65px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.block-1 {
+    float: left;
+    width: 15%;
+    text-align: center;
+    margin: 50px 50px 0px 170px;
+}
+
+.block-1 h3 {
+    color: #cf7600;
+    margin: 40px 0px 15px 0px;
+}
+
+.block-2 {
+    float: left;
+    width: 15%;
+    text-align: center;
+    margin: 50px 50px 0px 30px;
+}
+
+.block-2 h3 {
+    color: #cf7600;
+    margin: 40px 0px 15px 0px;
+}
+
+.block-3 {
+    float: left;
+    width: 15%;
+    text-align: center;
+    margin: 50px 50px 0px 30px;
+}
+
+.block-3 h3 {
+    color: #cf7600;
+    margin: 40px 0px 15px 0px;
+}
+
+.block-4 {
+    float: left;
+    width: 15%;
+    text-align: center;
+    margin: 50px 50px 0px 30px;
+}
+
+.block-4 h3 {
+    color: #cf7600;
+    margin: 40px 0px 15px 0px;
+}
+
+.logo_keysi {
+    width: 100%;
+    height: 25%;
+    background: url(../img/cherta.png) 50% 60%/auto 4px no-repeat;
+}
+
+.logo_keysi h2{
+    text-align: center;
+    padding: 65px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo_keysi p{
+    text-align: center;   
+}
+
+.logo_keisy2 {
+    width: 80%;
+    height: 80%;
+    background: url(../img/logo-keysi.jpg) center/cover;
+}
+
+
+
