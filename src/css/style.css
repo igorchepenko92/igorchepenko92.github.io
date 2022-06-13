@@ -176,13 +176,13 @@ nav{
     width: 50%;
     height: 5%;
     text-align: start;
-    margin: 215px 0px 0px 360px;
+    margin: 190px 0px 0px 360px;
 }
 
 .text-dva p{
     width: 50%;
     text-align: start;
-    margin: 30px 0px 0px 360px
+    margin: 25px 0px 0px 360px
 }
 
 .main_obomne input{
@@ -297,7 +297,7 @@ nav{
 .logo_keysi{
     width: 100%;
     height: 25%;
-    background: url(../img/cherta.png) 50% 60%/auto 4px no-repeat;
+    background: url(../img/cherta.png) 50% 65%/auto 4px no-repeat;
 }
 
 .logo_keysi h2{
@@ -308,7 +308,8 @@ nav{
 }
 
 .logo_keysi p{
-    text-align: center;   
+    text-align: center;
+    margin-top: -20px;
 }
 
 .logo_keisy2{
@@ -378,7 +379,7 @@ nav{
 .main_rascet{
     width: 100%;
     height: 85%;
-    background: url(../img/liniya%20itoga.png) no-repeat 50% 67%/50% 2px , url(../img/fon-rascet.jpg) center/cover;
+    background: url(../img/liniya%20itoga.png) no-repeat 370px 73%/50% 2px , url(../img/fon-rascet.jpg) center/cover;
 }
 
 .rascet-1 h2{
@@ -436,13 +437,13 @@ nav{
 .itog p{
     font-weight: bold;
     padding-bottom: 20px;
-    word-spacing: 690px;
+    word-spacing: 708px;
 }
 
 .itog p1{
     font-weight: bold;
     padding-bottom: 20px;
-    word-spacing: 657px;
+    word-spacing: 676px;
 }
 
 .main_statist{
@@ -565,9 +566,8 @@ nav{
 
 .main_contact{
     width: 100%;
-    height: 60%;
-    border: 100%;
-    background: url(../img/cherta.png) 50% 17%/auto 4px no-repeat , url(../img/fon-kon.jpg) 50%/100%;
+    height: 100%;
+    background: url(../img/cherta.png) 50% 19%/auto 4px no-repeat , url(../img/fon-kon.png) 50%/cover;
     color: #fff;
 }
 
@@ -575,20 +575,20 @@ nav{
     text-align: center;
     font-size: 25px;
     font-weight: bold;
-    padding-top: 100px;
+    padding-top: 90px;
     
 }
 
 .cont p{
     margin-top: 50px;
-    margin-left: 510px;
+    margin-left: 540px;
 }
 
 .cont-1 {
     float: left;
     width: 15%;
     text-align: center;
-    margin: 40px 0px 0px 390px;
+    margin: 40px 0px 0px 430px;
 }
 
 .cont-1 h3{
@@ -599,7 +599,7 @@ nav{
     float: left;
     width: 15%;
     text-align: center;
-    margin: 40px 0px 0px 20px;
+    margin: 40px 0px 0px -12px;
 }
 
 .cont-2 h3{
@@ -610,7 +610,7 @@ nav{
     float: left;
     width: 15%;
     text-align: center;
-    margin: 40px 0px 0px 20px;
+    margin: 40px 0px 0px -12px;
 }
     
 .cont-3 h3{
@@ -656,16 +656,94 @@ nav{
 }
 
 .main_konec input{
-    margin-bottom: 120px;
     border: 2px solid #fff;
     background: none;
     color: #fff;
     border-radius: 5px;
     padding: 10px 15px;
+    transition: all 0.2s;
+    transform: scale(1);
 }
 
-
+.main_konec input:hover{
+    background: white;
+    color: #344051;
 }
+
+.main_konec input:active{
+    transform: scale(1.1);
+}
+
+.soc1{
+    float: left;
+    margin: -40px 0px 0px 570px;
+    transform: scale(1);
+    transition: all 0.1s;
+}
+.soc1:hover{
+    transform: scale(1.3);
+}
+.soc2{
+    float: left;
+    margin-top: -40px;
+    margin-left: 645px;
+    transform: scale(1);
+    transition: all 0.1s;
+}
+.soc2:hover{
+    transform: scale(1.3);
+}
+.soc3{
+    float: left;
+    margin-top: -40px;
+    margin-left: 720px;
+    transform: scale(1);
+    transition: all 0.1s;
+}
+.soc3:hover{
+    transform: scale(1.3);
+}
+.soc4{
+    float: left;
+    margin-top: -40px;
+    margin-left: 795px;
+    transform: scale(1);
+    transition: all 0.1s;
+}
+.soc4:hover{
+    transform: scale(1.3);
+}
+.soc5{
+    float: left;
+    margin-top: -40px;
+    margin-left: 870px;
+    transform: scale(1);
+    transition: all 0.1s;
+}
+.soc5:hover{
+    transform: scale(1.3);
+}
+.soc6{
+    float: left;
+    margin-top: -40px;
+    margin-left: 945px;
+    transform: scale(1);
+    transition: all 0.1s;
+}
+.soc6:hover{
+    transform: scale(1.3);
+}
+
+.niz{
+    width: 100%;
+    height: 100%;
+    background-color: #354051;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    
+}
+
 .niz p{
-    margin-left: 40%;
+    margin-left: -30px;
 }
